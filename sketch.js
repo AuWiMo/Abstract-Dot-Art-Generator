@@ -4,7 +4,7 @@ let distance;
 let chaosFactor;
 
 function setup() {
-  createCanvas(1530, 700);
+  createCanvas(windowWidth, windowHeight);
   background(random(0, 30), random(0, 30), random(0, 30));
   strokeWeight(random(2, 40));
   stroke(random(0, 255), random(0, 255), random(0, 255), random(10, 150));
